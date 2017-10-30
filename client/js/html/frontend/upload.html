@@ -1,0 +1,399 @@
+<!-- container section start -->
+<section id="container" class="">
+    <header class="header white-bg">
+        <div class="toggle-nav">
+            <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"></div>
+        </div>
+        <!--logo start-->
+        <a href="index.html" class="logo">
+            <p style="color: #fff;">Video<span>Anayltics</span></p>
+        </a>
+        <!--logo end-->
+        <div class="nav search-row" id="top_menu">
+            <!--  search form start -->
+            <!--  search form end -->
+        </div>
+        <div class="top-nav notification-row">
+            <!-- notificatoin dropdown start-->
+            <ul class="nav pull-right top-menu">
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle">
+                        <span class="profile-ava">
+                                <img alt="" src="">
+                            </span>
+                        <span class="username" style="color:white;">Camilie</span>
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu extended logout">
+                        <div class="log-arrow-up"></div>
+                        <li class="eborder-top">
+                            <a href="#"><i class="icon_profile"></i> My Profile</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon_mail_alt"></i> My Inbox</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon_clock_alt"></i> Timeline</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon_chat_alt"></i> Chats</a>
+                        </li>
+                        <li>
+                            <a href="login.html"><i class="icon_key_alt"></i> Log Out</a>
+                        </li>
+                        <li>
+                            <a href="documentation.html"><i class="icon_key_alt"></i> Documentation</a>
+                        </li>
+                        <li>
+                            <a href="documentation.html"><i class="icon_key_alt"></i> Documentation</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- user login dropdown end -->
+            </ul>
+            <!-- notificatoin dropdown end-->
+        </div>
+    </header>
+    <!--header end-->
+    <!--sidebar start-->
+    <aside>
+        <div id="sidebar" class="nav-collapse ">
+            <!-- sidebar menu start-->
+            <ul class="sidebar-menu">
+                <li class="active">
+                    <a class="" href="#/AdminDashboard">
+                        <i class="icon_house_alt"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a class="" href="#/upload">
+                        <i class="icon_house_alt"></i>
+                        <span>Upload video</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a class="" href="#/viewData">
+                        <i class="icon_house_alt"></i>
+                        <span>View Gallery</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- sidebar menu end-->
+        </div>
+    </aside>
+    <!--sidebar end-->
+    <!--main content start-->
+    <section id="main-content">
+        <section class="wrapper">
+            <div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-4">
+                            </div>
+                            <div class="col-md-4 div-border">
+                                <div class="symbol">
+                                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal"><i class="fa fa-plus" aria-hidden="true" style="font-size: 400%;"></i></button>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
+                            </div>
+                            <div class="col-md-8">
+                                <div>
+                                    <h4 style="margin-left: 5%;"><b>Upload Audio , Video and Text File </b></h4>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-4">
+                            </div>
+                            <div class="col-md-4 div-border">
+                                <div class="symbol" style="margin-left: -5%;">
+                                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal1"><i class="fa fa-video-camera" aria-hidden="true" style="font-size: 400%;"></i></button>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
+                            </div>
+                            <div class="col-md-8">
+                                <div>
+                                    <h4 style="margin-left: 15%;"><b>Upload Webcam Video File </b></h4>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-4">
+                            </div>
+                            <div class="col-md-4 div-border">
+                                <div class="symbol" style="margin-left: -5%;">
+                                    <a href="/#/viewData">
+                                        <button class="btn btn-primary" data-toggle="modal"> <i class="fa fa-picture-o" aria-hidden="true" style="font-size: 350%;"></i></button>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2">
+                            </div>
+                            <div class="col-md-8">
+                                <div>
+                                    <h4 style="margin-left: 40%;"><b>Gallery </b></h4>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!--main content end-->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- <div class="modal-content">
+                <div class="modal-body">
+                    <form ng-controller="MyCtrl as up" name="up.upload_form">
+                        Single Image with validations
+                        <input type="file" ngf-select ng-model="up.file" name="file" accept="multipart/form-data" ngf-max-size="500MB" /> Image thumbnail: <img style="width:100px;" ng-show="!!up.file" ngf-thumbnail="up.file || '/thumb.jpg'" />
+                        <i ng-show="up.upload_form.file.$error.required">*required</i>
+                        <br>
+                        <i ng-show="up.upload_form.file.$error.maxSize">File too large 
+            {{up.file.size / 1000000|number:1}}MB: max 500M</i>
+                        <!--  Multiple files
+            <div class="button" ngf-select ng-model="up.files" ngf-multiple="true">Select</div>
+            Drop files: <div ngf-drop ng-model="up.files" class="drop-box">Drop</div> -->
+            <!--<button type="submit" ng-click="up.submit()">submit</button>
+                        <p>{{up.progress}}</p>
+                    </form>
+                </div>
+            </div> -->
+            <div class="modal-header">
+                <h2 class="modal-title"><b>Upload Video , Audio , Text</b></h2>
+            </div>
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form ng-controller="MyCtrl as up" name="up.upload_form">
+                        <h4><b>Choose File...</b></h4>
+                        <br/>
+                        <input type="file" ngf-select ng-model="up.file" name="file" accept="multipart/form-data" ngf-max-size="500MB" multiple/> Image thumbnail: <img style="width:100px;" ng-show="!!up.file" ngf-thumbnail="up.file || '/thumb.jpg'" />
+                        <i ng-show="up.upload_form.file.$error.required">*required</i>
+                        <br>
+                        <i ng-show="up.upload_form.file.$error.maxSize">File too large 
+            {{up.file.size / 1000000|number:1}}MB: max 500M</i>
+                        <!--  Multiple files
+            <div class="button" ngf-select ng-model="up.files" ngf-multiple="true">Select</div>
+            Drop files: <div ngf-drop ng-model="up.files" class="drop-box">Drop</div> -->
+                        <button type="submit" ng-click="up.submit()">submit</button>
+                        <p>{{up.progress}}</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                                30% Complete (success)
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form>
+                        <div id="videorecorder">
+                            <video id="viredemovideoele"></video>
+                            <span style="font-size:20px;" id="countdown"></span>
+                        </div>
+                        <input id="playback" value="PlayBack" type="button" />
+                        <input id="clearrecording" value="Clear Recording" type="button" />
+                        <input id="startRecrodBut1" value="Start Recording" type="button" />
+                        <input id="stopRecBut1" value="Stop Recording" type="button" />
+                        <input id="uploadrecord" value="Upload Recording" type="button" />
+                        </br>
+                        <!-- <button ></button> -->
+                        <p id="status"></p>
+                        <video id="recordedvideo" controls></video>
+                        <audio id="audiored" controls></audio>
+                        <a id="downloadurl">Download</a>
+                        <div id="progressNumber" style="font-size:20px;"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="text/javascript">
+var startRecord = document.getElementById("startRecrodBut1");
+var stopRecord = document.getElementById("stopRecBut1");
+var countdownElement = document.getElementById("countdown");
+var playBackRecord = document.getElementById("playback");
+var discardRecordng = document.getElementById("clearrecording");
+var uploadrecording = document.getElementById("uploadrecord");
+var progressNumber = document.getElementById("progressNumber");
+
+
+var virec = new VideoRecorderJS.init({
+        resize: 0.8,
+        webpquality: 0.9,
+        framerate: 15,
+        videotagid: "viredemovideoele",
+        videoWidth: "450",
+        videoHeight: "480",
+        log: true,
+        workerPath: "../dist/recorderWorker.js"
+    },
+    function() {
+        //success callback. this will fire if browsers supports
+    },
+    function(err) {
+        //onerror callback, this will fire for mediaErrors
+        if (err.name == "BROWSER_NOT_SUPPORTED") {
+            //handler code goes here
+        } else if (err.name == "PermissionDeniedError") {
+            //handler code goes here
+        } else if (err.name == "NotFoundError") {
+            //handler code goes here
+        } else {
+            throw 'Unidentified Error.....';
+        }
+
+    }
+);
+
+startRecord.addEventListener("click", function() {
+    virec.startCapture(); // this will start recording video and the audio
+    stopCountDown();
+    startCountDown();
+});
+
+stopRecord.addEventListener("click", function() {
+    /*
+     stops the recording and after recording is finalized oncaptureFinish call back
+     will occur
+     */
+    virec.stopCapture(oncaptureFinish);
+    stopCountDown();
+});
+
+playBackRecord.addEventListener("click", function() {
+    /*
+     Clientside playback,
+     */
+    virec.play();
+});
+
+discardRecordng.addEventListener("click", function() {
+    /*
+     Clears the current recorded video + audio allowing
+     another recording to happen
+     */
+    virec.clearRecording();
+    stopCountDown();
+});
+
+uploadrecording.addEventListener("click", function() {
+    /*
+     Uploading the content to the server, here I have sliced the blobs into chunk size
+     of 1048576 bits so that uploading time will reduce.
+     Gmail uses this same technique when we attach some files to a mail, it slize the file
+     in the client side and then uploads chunk by chunk
+     */
+    console.log("hello");
+    localStorage.setItem("blob", videoblob);
+    //localStorage.blob = videoblob;
+
+    document.getElementById("status").innerHTML = localStorage.getItem("blob");
+    //document.getElementById("status").innerHTML = localStorage.blob;
+    console.log(videoblob);
+    console.log(videobase64);
+    var uploadoptions = {
+        blobchunksize: 1048576,
+        requestUrl: "fileupload.php",
+        requestParametername: "filename",
+        videoname: "video.webm",
+        audioname: "audio.wav"
+    };
+    virec.uploadData(uploadoptions, function(totalchunks, currentchunk) {
+        /*
+         This function will callback during, each successfull upload of a blob
+         so you can use this to show a progress bar or something
+         */
+        progressNumber.innerHTML = ((currentchunk / totalchunks) * 100);
+        console.log(currentchunk + " OF " + totalchunks);
+    });
+});
+
+
+//------------------------------- few functions that demo, how to play with the api --------------------------
+
+var countdowntime = 60;
+var functioncalltime = 0;
+var timerInterval = null;
+var videoblob = '';
+var videobase64 = '';
+
+function oncaptureFinish(result) {
+    document.getElementById('status').innerHTML = "";
+    result.forEach(function(item) {
+        if (item.type == "video") {
+            videoblob = item.blob;
+            console.log(videoblob);
+            videobase64 = window.URL.createObjectURL(videoblob);
+            document.getElementById('recordedvideo').src = videobase64;
+            document.getElementById('downloadurl').style.display = '';
+            document.getElementById('downloadurl').href = videobase64;
+            document.getElementById('status').innerHTML = document.getElementById('status').innerHTML + "video=" + Math.ceil(videoblob.size / (1024)) + "KB";
+
+        } else if (item.type == "audio") {
+            var audioblob = item.blob;
+            document.getElementById('audiored').src = window.URL.createObjectURL(audioblob);
+            document.getElementById('status').innerHTML = document.getElementById('status').innerHTML + "Audio=" + Math.ceil(audioblob.size / (1024)) + "KB";
+        }
+    });
+}
+
+function setCountDownTime(time) {
+    countdownElement.innerHTML = time;
+    return time;
+}
+
+function startCountDown() {
+    if (timerInterval == null) {
+        functioncalltime = countdowntime;
+        var value = setCountDownTime(functioncalltime);
+        timerInterval = setInterval(function() {
+            var value = setCountDownTime(--functioncalltime);
+            if (value == 0) {
+                clearInterval(timerInterval);
+                virec.stopCapture(oncaptureFinish);
+            }
+        }, 1000);
+    }
+}
+
+function stopCountDown() {
+    if (timerInterval) {
+        clearInterval(timerInterval);
+        timerInterval = null;
+    }
+}
+</script>

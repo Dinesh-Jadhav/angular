@@ -1,0 +1,154 @@
+<!-- container section start -->
+<section id="container" class="">
+    <header class="header white-bg">
+        <div class="toggle-nav">
+            <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"></div>
+        </div>
+        <!--logo start-->
+        <a href="index.html" class="logo" style="color:white;">Video<span>Anayltics</span></a>
+        <!--logo end-->
+        <div class="nav search-row" id="top_menu">
+            <!--  search form start -->
+            <ul class="nav top-menu">
+                <li>
+                    <form class="navbar-form">
+                        <input class="form-control" placeholder="Search" type="text">
+                    </form>
+                </li>
+            </ul>
+            <!--  search form end -->
+        </div>
+        <div class="top-nav notification-row">
+            <!-- notificatoin dropdown start-->
+            <ul class="nav pull-right top-menu">
+                <!-- alert notification end-->
+                <!-- user login dropdown start-->
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle">
+                        <span class="profile-ava">
+                                <img alt="" src="">
+                            </span>
+                        <span class="username" style="color:white;">Admin</span>
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu extended logout">
+                        <div class="log-arrow-up"></div>
+                        <li class="eborder-top">
+                            <a href="#"><i class="icon_profile"></i> My Profile</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon_mail_alt"></i> My Inbox</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon_clock_alt"></i> Timeline</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon_chat_alt"></i> Chats</a>
+                        </li>
+                        <li>
+                            <a href="login.html"><i class="icon_key_alt"></i> Log Out</a>
+                        </li>
+                        <li>
+                            <a href="documentation.html"><i class="icon_key_alt"></i> Documentation</a>
+                        </li>
+                        <li>
+                            <a href="documentation.html"><i class="icon_key_alt"></i> Documentation</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- user login dropdown end -->
+            </ul>
+            <!-- notificatoin dropdown end-->
+        </div>
+    </header>
+    <!--header end-->
+    <!--sidebar start-->
+    <aside>
+        <div id="sidebar" class="nav-collapse ">
+            <!-- sidebar menu start-->
+            <ul class="sidebar-menu">
+                <li class="active">
+                    <a class="" href="#/AdminDashboard">
+                        <i class="icon_house_alt"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a class="" href="#/upload">
+                        <i class="icon_house_alt"></i>
+                        <span>Upload video</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a class="" href="#/viewData">
+                        <i class="icon_house_alt"></i>
+                        <span>View Gallery</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- sidebar menu end-->
+        </div>
+    </aside>
+    <!--sidebar end-->
+    <!--main content start-->
+    <section id="main-content">
+        <section class="wrapper">
+            <div ng-repeat="product in results" ng-if="$index % 3 == 0" class="row">
+                <div class="col-lg-4">
+                    <div class="w3-card-4" style="margin-top:10px;margin-left:10px;">
+                        <div class="w3-container w3-center row">
+                            <p>{{results[$index].video_url}}</p>
+                        </div>
+                        <div class="w3-container w3-center row">
+                            <p>{{results[$index].file_type}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="w3-card-4" style="margin-top:10px;margin-left:10px;">
+                        <div class="w3-container w3-center row">
+                            <p>{{results[$index+1].video_url}}</p>
+                        </div>
+                        <div class="w3-container w3-center row">
+                            <p>{{results[$index+1].file_type}}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="w3-card-4" style="margin-top:10px;margin-left:10px;">
+                        <div class="w3-container w3-center row">
+                            <p>{{results[$index+2].video_url}}</p>
+                        </div>
+                        <div class="w3-container w3-center row">
+                            <p>{{results[$index+2].file_type}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-md-4">
+                    <a href="#/viewContent:{{result._id}}">
+                        <div class="w3-card-4" style="margin-top:10px;margin-left:10px;">
+                            <center>
+                                <div class="symbol" ng-if="result.file_type==='video/mp4'">
+                                    <button><i class="fa fa-video-camera fa-5x" aria-hidden="true" style="font-size: 400%;"></i></button>
+                                </div>
+                                <div class="symbol" ng-if="result.file_type==='image/jpeg' || result.file_type==='image/jpg' || result.file_type==='text/css'">
+                                    <button><i class="fa fa-file-text fa-5x " aria-hidden="true" style="font-size: 400%;"></i></button>
+                                </div>
+                                <div class="symbol" ng-if="result.file_type==='audio/'">
+                                    <button><i class="fa fa-volume-up fa-5x" aria-hidden="true" style="font-size: 400%;"></i></button>
+                                </div>
+                            </center>
+                            <div class="w3-container w3-center row">
+                                <p>{{result.video_url}}</p>
+                            </div>
+                            <div class="w3-container w3-center row">
+                                <p>{{result.file_type}}</p>
+                            </div>
+                        </div>
+                    </a>
+                </div> -->
+        </section>
+    </section>
+    <!--main content end ng-click="viewContent(result._id)"-->
+</section>

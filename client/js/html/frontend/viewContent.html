@@ -1,0 +1,140 @@
+<!-- container section start -->
+<section id="container" class="">
+    <header class="header white-bg">
+        <div class="toggle-nav">
+            <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"></div>
+        </div>
+        <!--logo start-->
+        <a href="index.html" class="logo" style="color:white;">Video<span>Anayltics</span></a>
+        <!--logo end-->
+        <div class="nav search-row" id="top_menu">
+            <!--  search form start -->
+            <!--  search form end -->
+        </div>
+        <div class="top-nav notification-row">
+            <!-- notificatoin dropdown start-->
+            <ul class="nav pull-right top-menu">
+                <!-- alert notification end-->
+                <!-- user login dropdown start-->
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="dropdown-toggle">
+                        <span class="profile-ava">
+                                <img alt="" src="">
+                            </span>
+                        <span class="username" style="color:white;">Camilie</span>
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu extended logout">
+                        <div class="log-arrow-up"></div>
+                        <li class="eborder-top">
+                            <a href="#"><i class="icon_profile"></i> My Profile</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon_mail_alt"></i> My Inbox</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon_clock_alt"></i> Timeline</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="icon_chat_alt"></i> Chats</a>
+                        </li>
+                        <li>
+                            <a href="login.html"><i class="icon_key_alt"></i> Log Out</a>
+                        </li>
+                        <li>
+                            <a href="documentation.html"><i class="icon_key_alt"></i> Documentation</a>
+                        </li>
+                        <li>
+                            <a href="documentation.html"><i class="icon_key_alt"></i> Documentation</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- user login dropdown end -->
+            </ul>
+            <!-- notificatoin dropdown end-->
+        </div>
+    </header>
+    <!--header end-->
+    <!--sidebar start-->
+    <aside>
+        <div id="sidebar" class="nav-collapse ">
+            <!-- sidebar menu start-->
+            <ul class="sidebar-menu">
+                <li class="active">
+                    <a class="" href="#/AdminDashboard">
+                        <i class="icon_house_alt"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a class="" href="#/upload">
+                        <i class="icon_house_alt"></i>
+                        <span>Upload video</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a class="" href="#/viewData">
+                        <i class="icon_house_alt"></i>
+                        <span>View Gallery</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- sidebar menu end-->
+        </div>
+    </aside>
+    <!--sidebar end-->
+    <!--main content start-->
+    <section id="main-content">
+        <section class="wrapper">
+            <center>
+                <div class="row">
+                    <h3>Video File Name{{video_name}}</h3></div>
+                <div class="row">
+                    <div class="col-lg-4" style="margin-top:40px">
+                        <h3 style="text-align:center;margin-left:40%;">Actual Video</h3>
+                        <iframe src="{{res}}" width="460" height="315" autoplay="1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-4" style="margin-top:40px">
+                        <h3 style="text-align:center;margin-left:40%;">Processed Video</h3>
+                        <iframe src="{{res}}" width="460" height="315" frameborder="0" allowfullscreen autoplay="false"></iframe>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div>
+                                <table class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th> Emotion Name</th>
+                                            <th>Emotion in % </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>John</td>
+                                            <td>Doe</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mary</td>
+                                            <td>Moe</td>
+                                        </tr>
+                                        <tr>
+                                            <td>July</td>
+                                            <td>Dooley</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+                <center>
+        </section>
+    </section>
+    <!--main content end-->
+</section>

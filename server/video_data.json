@@ -1,0 +1,5 @@
+{"_id":{"$oid":"596f46b215210177c8ce99b3"},"video_url":"file-1500464818444.mp4","uploadedAt":"../client/uploads/Dinesh-596db17d0ae0e41dde08f2ab/file-1500464818444.mp4","user_id":"596db17d0ae0e41dde08f2ab","file_type":"video/mp4"}
+{"_id":{"$oid":"596f4842b43d487a42815f95"},"video_url":"file-1500465217831.mp4","uploadedAt":"../client/uploads/Dinesh-596db17d0ae0e41dde08f2ab/file-1500465217831.mp4","user_id":"596db17d0ae0e41dde08f2ab","file_type":"video/mp4"}
+{"_id":{"$oid":"596f4cfae509ba7d9386aec8"},"video_url":"file-1500466426723.mp4","uploadedAt":"../client/uploads/Dinesh-596db17d0ae0e41dde08f2ab/file-1500466426723.mp4","user_id":"596db17d0ae0e41dde08f2ab","file_type":"video/mp4"}
+{"_id":{"$oid":"596f4d15e509ba7d9386aec9"},"video_url":"file-1500466453042.mp4","uploadedAt":"../client/uploads/Dinesh-596db17d0ae0e41dde08f2ab/file-1500466453042.mp4","user_id":"596db17d0ae0e41dde08f2ab","file_type":"video/mp4"}
+{"_id":{"$oid":"596f4fc28f30952014106e46"},"video_url":"file-1500467137986.JPG","uploadedAt":"uploads\\test-596b734e69f04618307fa847\\file-1500467137986.JPG","user_id":"596b734e69f04618307fa847","file_type":"image/jpeg"}

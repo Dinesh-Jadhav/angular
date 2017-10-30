@@ -1,0 +1,5 @@
+{"_id":{"$oid":"596b4d86734d1d0ff25fbf0d"},"first_name":"Mahesh","last_name":"Gurav","email":"maheshgurav100@gmail.com","password":"827ccb0eea8a706c4c34a16891f84e7b"}
+{"_id":{"$oid":"596b52ab37e04115c679e7bb"},"first_name":"Mahesh","last_name":"Gurav","email":"maheshgurav100@gmal.com","password":"827ccb0eea8a706c4c34a16891f84e7b"}
+{"_id":{"$oid":"596b52da37e04115c679e7bc"},"first_name":"Dinesh","last_name":"Jadhav","email":"dineshjadhav94@gmail.com","password":"827ccb0eea8a706c4c34a16891f84e7b"}
+{"_id":{"$oid":"596b734e69f04618307fa847"},"first_name":"test","last_name":"test","email":"test@gmail.com","password":"827ccb0eea8a706c4c34a16891f84e7b"}
+{"_id":{"$oid":"596db17d0ae0e41dde08f2ab"},"first_name":"Dinesh","last_name":"Jadhav","email":"dineshj9696@gmail.com","password":"e10adc3949ba59abbe56e057f20f883e"}
